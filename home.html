@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.6.1-dist/css/bootstrap.css">
     </head>
 <body>
     <main>
@@ -22,24 +23,53 @@
                     <li><a href="home.html">Home</a></li>
                     <li><a href="porque_adoptar.html">porqué adoptar</a></li>
                     <li><a href="como_adoptar.html">Cómo adoptar</a></li>
-                    <li><a href="form.html">Formulario de adopción</a></li>
+                    <li><a href="formulario_de_adopcion.html">Formulario de adopción</a></li>
                 </ul>
             </nav>
             
-            <img src="img/pets.png" alt="La Quinta Pata">
+            <img class="presentacion" src="img/pets.png" alt="La Quinta Pata">
             <h1 class="presentacion">La Quinta Pata</h1>
-            <h2>Deja de buscar la quinta pata del gato y adopta ahora!</h2>
+            <h2 class="presentacion">Deja de buscar la quinta pata del gato y adopta ahora!</h2>
             <h2>Sea una nueva oportunidad de hogar para estos perros y gatos.</h2>
+            
         </header>
         
         <section>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" id="carousel" class="active">
+                    <a href="formulario_de_adopcion.html"></a><img src="img/carousel/dia do cachorro (1).png" class="d-block w-100" alt="formulario_de_adopcion"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carousel/dia do cachorro (2).png" class="d-block w-100" alt="entusmanos">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/carousel/dia do cachorro.png" class="d-block w-100" alt="mejor amigo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próxima</span>
+                  </button>
+              </div>
 
         </section>
         <article>
-
+            <h3>¿Quienes sómos?</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet facilis doloribus ad laboriosam ea mollitia iusto sed nostrum repellendus magni fuga, quod iure molestias recusandae officia sint. Soluta, ipsa.</p>
         </article>
         <footer>
-
+            <div class="social_menu">
+                <ul>
+                    <li class="social_media"><a href="#"><img src="img/icons/facebook.png" alt=""></a></li>
+                    <li class="social_media"><a href="#"><img src="img/icons/whatsapp.png" alt=""></a></li>
+                    <li class="social_media"><a href="#"><img src="img/icons/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
         </footer>
     </main>
 </body>
