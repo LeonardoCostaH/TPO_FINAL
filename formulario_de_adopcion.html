@@ -42,28 +42,41 @@
             <form id="Form_Adopcion"   action="procesar.php" method="">
         
                 <div class="form-control">
-                    <label for="usuario">Nombre de usuario</label>
-                    <input id="usuario" type="text">
+                    <input id="nombre" type="text" required autofocus placeholder="nombre y apellido">
                     <p></p>                
                 </div>
         
                 <div class="form-control">
-                    <label for="email">E-mail</label>
-                    <input id="email" type="email">
+                    <input id="email" required type="email" required placeholder="E-mail">
                     <p></p>                
                 </div>
-        
+
                 <div class="form-control">
-                    <label for="pass">Password</label>
-                    <input id="pass" type="password">
+                    <input id="tel" required type="tel" required placeholder="Teléfono">
                     <p></p>                
                 </div>
-        
+
                 <div class="form-control">
-                    <label for="passConfirma">Confirmar Password</label>
-                    <input id="passConfirma" type="password">
+                    <for=opciones>¿Cual animal querés?</label>
+                    <input id="gato-o-perro" list="opciones" required type="datalist" required >
+                    <datalist id="opciones">
+                        <option value="perro">Perro</option>
+                        <option value="gato">Gato</option>
+                    </datalist>
                     <p></p>                
                 </div>
+
+                <div class="form-control" >
+                    <for=mensaje>ahora conta porqué quieres adoptar.</label>
+                    <textarea id="mensaje" required="required" data-lt-tmp-id="lt-737125" spellcheck="false" data-gramm="false" style="width: 281px; height: 146px;"></textarea>
+                    <p></p>                
+                </div>
+
+               
+                
+                
+                
+                
         
                 <button>Enviar</button>
             </form>

@@ -7,7 +7,8 @@
     width: 400px;
     max-width: 100%;
     clear: both;
-
+    float: none;
+    margin: 0 auto;
 }
 .cabecera {
     background: #ecbb44;
@@ -16,7 +17,7 @@
     border-bottom: 1px solid #f0f0f0;
     padding: 20px 40px;
 }
-#formulario {
+#Form_Adopcion {
     padding: 30px 20px;
 }
 
@@ -34,13 +35,16 @@
 
 .form-control input {
     border: none;
-    background-color: #f0f0f0;
+    background-color: #cecece;
     display: block;
     font-family: inherit;
     font-size: 16px;
     padding: 12px;
-    width: 100%;    
+    width: 90%;    
 }
+
+#mensaje {}
+
 .form-control, input:focus {
     outline: none;
 }

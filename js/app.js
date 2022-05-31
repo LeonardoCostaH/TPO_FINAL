@@ -12,18 +12,19 @@ window.addEventListener('load', ()=> {
     
     const validaCampos = ()=> {
         //capturar los valores ingresados por el usuario
-        const usuarioValor = usuario.value.trim()
+        const nombreValor = nombre.value.trim()
         const emailValor = email.value.trim()
+        const telValor = tel.value.trim()
         const passValor = pass.value.trim()
         const passConfirmaValor = passConfirma.value.trim();
      
         //validando campo usuario
         //(!usuarioValor) ? console.log('CAMPO VACIO') : console.log(usuarioValor)
-        if(!usuarioValor){
+        if(!nombreValor){
             //console.log('CAMPO VACIO')
-            validaFalla(usuario, 'Campo vacío')
+            validaFalla(nombre, 'Campo vacío')
         }else{
-            validaOk(usuario)
+            validaOk(nombre)
         }
 
         //validando campo email
