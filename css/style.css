@@ -6,17 +6,17 @@
                  width:953px;
             }
 
-            #quienes_somos { }
 
             .txt_adopcion {
                 clear: both; width: auto;
             }
-            #img_comp {clear: both; width: 300px;}
+            .img_comp {clear: both; width: 300px;float:left; margin:5px 10px;}
+            .img_comp_r {clear: both; width: 300px;float:right; margin:5px 10px;}
             
             nav { width: 953px; background-color: #9fe4f4 ; clear: both;}
             nav ul { list-style:none; margin:0; padding:4px }
             nav ul li { display:inline-block }
-            nav ul li a { font-size: 0.85em; text-decoration: none; color: #333333; padding: 4px 20px }
+            nav ul li a { font-size: 1em; text-decoration: none; color: #333333; padding: 4px 20px }
             nav ul li a:hover { background-color: #efbb41
             }
             
@@ -34,13 +34,17 @@
             }
             
             	
-            footer { clear:both; width:953px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
-            .social_menu ul  {width: 10px; height: auto;}	
+            footer { clear:both; width:946px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#333333; padding:5px }
+            .social_menu { width: 953px ; clear: both;}
             .social_menu ul { list-style:none; margin:0; padding:4px }
-            .social_menu ul li { display:inline-block;font-size: 0.5em; width:100%;height: 35px;float:none;}
+            .social_menu ul li { display:inline-block }
+            .social_menu ul li img { width: 30px;  padding: 4px 5px }
+            /*.social_menu ul  {width: 10px; height: auto;}	
+            .social_menu ul { list-style:none; margin:0; padding:4px }
+            .social_menu ul li { display:inline-block;font-size: 0.5em; width:80%;height: 35px;float:none;;} */
 
             h1 { font-family: 'Permanent Marker', cursive; color:#575757; font-style:italic; letter-spacing:-0.05em;text-align: center;  }
             h4, h2, h3 { font-family: 'Dancing Script', cursive; color:#575757; font-style:italic; letter-spacing:-0.05em;text-align: center; }
             h1 { font-size:2.6em; margin:0 5px; }
             h4 { font-size:1.6em; margin:0 5px; }
-            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+            p, li {font-size: 1.5em; font-family: 'Caveat', cursive;  color:#555; line-height:1.8 }
