@@ -1,4 +1,4 @@
-            html { background-color:#F6F6F6; font-size: 62.5% }
+            html { background-color:#F6F6F6; font-size: 100% }
             
             main { width:100%; max-width: 955px; margin:-1px auto 10px;  background-color:#cccdcd; font-family:Arial, Helvetica, sans-serif }
             header { width:100%;  clear: both; }
@@ -10,8 +10,8 @@
             .txt_adopcion {
                 clear: both; width: auto;
             }
-            .img_comp {clear: both; width: 35%;float:left; margin:5px 10px;}
-            .img_comp_r {clear: both; width: 35%;float:right; margin:5px 10px;}
+            .img_comp {clear: both; width: 35%;min-width: 300px;float:left; margin:5px 10px;}
+            .img_comp_r {clear: both; width: 35%;min-width: 300px;float:right; margin:5px 10px;}
             
             nav { width: 100%; background-color: #9fe4f4 ; clear: both;}
             nav ul { list-style:none; margin:0; padding:4px }
