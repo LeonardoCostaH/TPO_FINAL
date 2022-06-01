@@ -34,8 +34,8 @@
             }
             
             	
-            footer { clear:both; width:100%; margin:0 auto; font-size:0.75em; text-align:center; background-color:#333333; }
-            .social_menu { width: 958px ; clear: both;}
+            footer { clear:both; width:99%; margin:0 auto;padding: 1%; font-size:0.75em; text-align:center; background-color:#333333; }
+            .social_menu { width: 99% ; clear: both; }
             .social_menu ul { list-style:none; margin:0; padding:4px }
             .social_menu ul li { display:inline-block }
             .social_menu ul li img { width: 30px;  padding: 4px 5px }
