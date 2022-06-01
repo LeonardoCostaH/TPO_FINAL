@@ -10,8 +10,8 @@
             .txt_adopcion {
                 clear: both; width: auto;
             }
-            .img_comp {clear: both; width: 35%;float:left; margin:5px 10px;}
-            .img_comp_r {clear: both; width: 35%;float:right; margin:5px 10px;}
+            .img_comp { width: 35%;float:left; margin:5px 10px;}
+            .img_comp_r { width: 35%;float:right; margin:5px 10px;}
             
             nav { width: 100%; background-color: #9fe4f4 ; clear: both;}
             nav ul { list-style:none; margin:0; padding:4px }
