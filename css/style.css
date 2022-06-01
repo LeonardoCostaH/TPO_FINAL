@@ -47,7 +47,7 @@
             h4, h2, h3 { font-family: 'Dancing Script', cursive; color:#575757; font-style:italic; letter-spacing:-0.05em;text-align: center; }
             h1 { font-size:2.6em; margin:0 5px; }
             h4 { font-size:1.6em; margin:0 5px; }
-            p, li {font-size: 1.5em; font-family: 'Caveat', cursive;  color:#555; line-height:1.8% }
+            p, li {font-size: 1.5em; font-family: 'Caveat', cursive;  color:#555; line-height:1.8 }
 
             @media (min-width: 480px) {
                 .article {
