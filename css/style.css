@@ -1,4 +1,4 @@
-            html { background-color:#F6F6F6;  }
+            html { background-color:#F6F6F6; margin: 0; }
             
             main { width:100%; max-width: 955px; margin:-1px auto 10px;  background-color:#cccdcd; font-family:Arial, Helvetica, sans-serif }
             header { width:100%;  clear: both; }
